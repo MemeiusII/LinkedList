@@ -68,8 +68,8 @@ module list
                 current => handle%list%head
                 print *, current%value
                 do while (associated(current%next))
-                    print *, current%value
                     current => current%next
+                    print *, current%value
                 end do
             end if
         end subroutine print_list

@@ -1,2 +1,8 @@
 # ignore modules
 *.mod
+
+# ingore object files
+*.o
+
+# ignore executable
+*.exe
